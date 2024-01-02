@@ -5,6 +5,7 @@
 
 body{
     background-color:rgb(206, 206, 41);
+    background-image: url("https://images.unsplash.com/photo-1697450229849-30db7a91427e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
 
 header{
@@ -12,15 +13,8 @@ header{
     width: 500px;
     background-color: red;
     display: block;
-    z-index: 5;
     opacity: 0.25;
     margin: auto;
-}
-
-.background{
-    z-index: -1;
-    position: absolute;
-    max-width: 100%;
 }
 
 #start{
