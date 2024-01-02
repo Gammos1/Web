@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgb(206, 206, 41);
+    display: flex;
+    justify-content: center;
+    zoom: 200%;
+}
+
+header{
+    height: 50px;
+    width: 500px;
+    background-color: red;
+    display: block;
+    z-index: 5;
+    opacity: 0.25;
+}
+
+.background{
+    z-index: -1;
+    position: absolute;
+    max-width: 1500px;
+}
+
+#start{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    gap: 50px;
+    border: solid;
+    top: 150px;
+}
+
+.button{
+    border: solid rgb(255, 102, 0);
+}
